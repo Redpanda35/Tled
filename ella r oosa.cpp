@@ -44,7 +44,7 @@ int main()
     system("cls");
      cout<<"\t\t\t< W E L C O M E >"<<endl;
     cout<<"\t\t\t<I'M A VIRTUAL ASSISTANT >"<<endl;
-    cout<<"\t\t\t<MY NAME IS Oosa >"<<endl;
+    cout<<"\t\t\t<MY NAME IS Madari-GPT >"<<endl;
     cout<<"\t\t\t<I'M HERE TO HELP YOU >"<<endl<<endl;
     char password[20];
     char ch[100];
@@ -59,7 +59,7 @@ int main()
         gets(password);
         STARTUPINFO startInfo = {0};
         PROCESS_INFORMATION processInfo = {0};
-        if(strcmp(password, "uranium")==0){
+        if(strcmp(password, "madari")==0){
             cout<<"\n<=>\n\n";
             wishme();
             do{
@@ -127,7 +127,7 @@ string phrase = "How can i help you sir";
   system("start https://www.google.com");
                 }
                 else if(strcmp(ch, "open youtube") == 0){
-                    cout<<"opeining YouTube....."<<endl;
+                    cout<<"opening YouTube....."<<endl;
                     string phrase = "opening youtube";
                     string command = " \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
@@ -135,7 +135,7 @@ string phrase = "How can i help you sir";
                     system("start https://www.youtube.com");
                 }
                 else if(strcmp(ch, "open instagram") == 0){
-                    cout<<"openining instagram....."<<endl;
+                    cout<<"opening instagram....."<<endl;
                     string phrase = "opening instagram";
                     string command = "\"" + phrase + "\"";
                     const char *charCommand = command.c_str();
@@ -156,7 +156,7 @@ string phrase = "How can i help you sir";
                     system("cls");
                     cout << "\t\t\t< W E L C O M E >" << endl;
                     cout << "\t\t\t< I'M VIRTUAL ASSISTANT >" << endl;
-                    cout << "\t\t\t< MY NAME IS Oosa >" << endl;
+                    cout << "\t\t\t< MY NAME IS Madari-GPT >" << endl;
                     cout << "\t\t\t< I'M HERE TO HELP YOU AND MAKE YOUR LIFE EASY >" << endl
                          << endl;
 
